@@ -19,18 +19,41 @@
 
 
 ## 手順
-1. [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン→アプリ作成
-* 
-1. [GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git)からサンプルプロジェクトのダウンロード
-1. Xcodeでアプリを起動
-1. APIキーの設定
-1. 動作確認
+### 1. [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン→アプリ作成
 
+* 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面出るのでアプリを作成します
+
+![画像3](/readme-img/003.png)
+
+* アプリ作成されると下図のような画面になります
+* この２種類のAPIキー（アプリケーションキーとクライアントキー）はXcodeで作成するiOSアプリに[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の紐付けるため、あとで使います
+
+![画像4](/readme-img/004.png)
+
+### 2. [GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git)からサンプルプロジェクトのダウンロード
+
+* この画面([GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git))の![画像8](/readme-img/008.png)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
+
+### 3. Xcodeでアプリを起動
+
+* 編集中
+
+### 4. APIキーの設定
+
+* 編集中
+
+### 5. 動作確認
+
+* 編集中
 
 ## 解説
 プロジェクトに実装済みの内容のご紹介
 * SDKのインポート
+ * 編集中
+
+
 * ロジック
+ * 編集中
 
 
 ## 参考
