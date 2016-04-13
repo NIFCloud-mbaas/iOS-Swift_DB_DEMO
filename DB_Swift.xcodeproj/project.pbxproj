@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A112B4E8CACDE7832D1A17B /* libPods-DB_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C2323C178CAAD61344D837 /* libPods-DB_Swift.a */; };
 		BDEB27D21CBC87C000C0B0F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB27D11CBC87C000C0B0F0 /* AppDelegate.swift */; };
 		BDEB27D41CBC87C000C0B0F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB27D31CBC87C000C0B0F0 /* ViewController.swift */; };
 		BDEB27D71CBC87C000C0B0F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB27D51CBC87C000C0B0F0 /* Main.storyboard */; };
 		BDEB27D91CBC87C000C0B0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEB27D81CBC87C000C0B0F0 /* Assets.xcassets */; };
 		BDEB27DC1CBC87C000C0B0F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB27DA1CBC87C000C0B0F0 /* LaunchScreen.storyboard */; };
+		F638E2938092515F8DB925AD /* Pods_DB_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36FEED7AA98970451E6F6D5 /* Pods_DB_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25C2323C178CAAD61344D837 /* libPods-DB_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DB_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A671B7C3B11C35055DB39030 /* Pods-DB_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DB_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DB_Swift/Pods-DB_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		BDEB27CE1CBC87C000C0B0F0 /* DB_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DB_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEB27D11CBC87C000C0B0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,8 +24,8 @@
 		BDEB27D81CBC87C000C0B0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDEB27DB1CBC87C000C0B0F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDEB27DD1CBC87C000C0B0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDEB27E31CBC886900C0B0F0 /* DB_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DB_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		DF543CAA49E25DD2539CA130 /* Pods-DB_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DB_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DB_Swift/Pods-DB_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E36FEED7AA98970451E6F6D5 /* Pods_DB_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DB_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A112B4E8CACDE7832D1A17B /* libPods-DB_Swift.a in Frameworks */,
+				F638E2938092515F8DB925AD /* Pods_DB_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				BDEB27D11CBC87C000C0B0F0 /* AppDelegate.swift */,
-				BDEB27E31CBC886900C0B0F0 /* DB_Swift-Bridging-Header.h */,
 				BDEB27D31CBC87C000C0B0F0 /* ViewController.swift */,
 				BDEB27D51CBC87C000C0B0F0 /* Main.storyboard */,
 				BDEB27D81CBC87C000C0B0F0 /* Assets.xcassets */,
@@ -85,7 +83,7 @@
 		D5F43C6790D084A63D23920F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25C2323C178CAAD61344D837 /* libPods-DB_Swift.a */,
+				E36FEED7AA98970451E6F6D5 /* Pods_DB_Swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -331,7 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.niftycloud.DB-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)DB_Swift/DB_Swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -344,7 +342,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.niftycloud.DB-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)DB_Swift/DB_Swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
