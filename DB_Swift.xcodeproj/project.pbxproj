@@ -331,7 +331,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.niftycloud.DB-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/oomoritarou/Documents/【iOS】体験会/DB_Swift/DB_Swift/DB_Swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)DB_Swift/DB_Swift-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -344,7 +344,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.niftycloud.DB-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/oomoritarou/Documents/【iOS】体験会/DB_Swift/DB_Swift/DB_Swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)DB_Swift/DB_Swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
