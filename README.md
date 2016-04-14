@@ -2,7 +2,7 @@
 ![画像1](/readme-img/001.png)
 
 ## 概要
-* Xcode(Swift)で作成したiOSアプリから、[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)へデータ登録を行うサンプアプリです
+* Xcode(Swift)で作成したiOSアプリから、[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)へデータ登録を行うサンプアプリです（Objective-C版は[こちら](https://github.com/natsumo/iOS-Objective-C_DB_DEMO)）
  * 「START DEMO」ボタンをタップするとクラウドにデータが上がります★
 * 簡単な操作ですぐに [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)を体験いただけます
 
@@ -126,4 +126,5 @@ class ViewController: UIViewController {
 ```
 
 ## 参考
-* 編集中
+* 同じ内容の【Objective-C】版もご用意しています
+ * https://github.com/natsumo/iOS-Objective-C_DB_DEMO
