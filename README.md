@@ -40,7 +40,7 @@
 
 ### 2. [GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git)からサンプルプロジェクトのダウンロード
 
-* この画面([GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git))の![画像10](/readme-img/010.png)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
+* この画面([GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git))の![画像10](/readme-img/010.png)ボタンをクリックし、さらに![画像14](/readme-img/014.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
 
 ### 3. Xcodeでアプリを起動
 
