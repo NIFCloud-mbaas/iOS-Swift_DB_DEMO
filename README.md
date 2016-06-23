@@ -40,7 +40,7 @@
 
 ### 2. [GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git)からサンプルプロジェクトのダウンロード
 
-* この画面([GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git))の![画像10](/readme-img/010.png)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
+* この画面([GitHub](https://github.com/natsumo/iOS-Swift_DB_DEMO.git))の![画像10](/readme-img/010.png)ボタンをクリックし、さらに![画像14](/readme-img/014.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
 
 ### 3. Xcodeでアプリを起動
 
@@ -63,6 +63,10 @@
 * 左上の実行ボタン（さんかくの再生マーク）をクリックします
 
 ![画像12](/readme-img/012.png)
+
+* __ビルド時にエラーが発生した場合の対処方法__
+ * Xcodeのバージョンが古い場合`import NCMB`にエラーが発生し、上手くSDKが読み込めないことがあります
+ * その場合は[【Swift】SDKの読み込みにuse framework!が使えない場合の対処方法](http://goo.gl/Z1D0K3)をご覧いただき、別の読み込み方法をお試しください
 
 * シミュレーターが起動したら![画像13](/readme-img/013.png)ボタンをタップします
 * 動作結果が画面に表示されます
