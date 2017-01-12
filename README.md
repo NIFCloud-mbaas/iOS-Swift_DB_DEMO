@@ -40,17 +40,17 @@
 
 ### 2. GitHubからサンプルプロジェクトのダウンロード
 * 下記リンクをクリックしてプロジェクトをダウンロードをMacにダウンロードします
- * __[iOS-Swift_DB_DEMO](https://github.com/NIFTYCloud-mbaas/iOS-Swift_DB_DEMO/archive/master.zip)__
+ * __[DB_Swift](https://github.com/NIFTYCloud-mbaas/iOS-Swift_DB_DEMO/archive/master.zip)__
 
 ### 3. Xcodeでアプリを起動
 
-* ダウンロードしたフォルダを開き、「iOS-Swift_DB_DEMO.xcworkspace」をダブルクリックしてXcode開きます(白い方です)
+* ダウンロードしたフォルダを開き、「DB_Swift.xcworkspace」をダブルクリックしてXcode開きます(白い方です)
 
 ![画像09](/readme-img/009.png)
 
 ![画像6](/readme-img/006.png)
 
-* 「iOS-Swift_DB_DEMO.xcodeproj」（青い方）ではないので注意してください！
+* 「DB_Swift.xcodeproj」（青い方）ではないので注意してください！
 ![画像08](/readme-img/008.png)
 
 ### 4. APIキーの設定
