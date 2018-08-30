@@ -1,10 +1,10 @@
-# ニフクラ  mobile backend iOS SDKについて
+# ニフティクラウド mobile backend iOS SDKについて
 
 ## 概要
 
-ニフクラ  mobile backend iOS SDKは、
+ニフティクラウド mobile backend iOS SDKは、
 モバイルアプリのバックエンド機能を提供するクラウドサービス
-[ニフクラ  mobile backend](http://mb.cloud.nifty.com)用のiOS SDKです。
+[ニフティクラウド mobile backend](http://mb.cloud.nifty.com)用のiOS SDKです。
 
 - プッシュ通知
 - データストア
@@ -14,16 +14,16 @@
 
 といった機能をアプリから利用することが可能です。
 
-このSDKを利用する前に、ニフクラ mobile backendのアカウントを作成する必要があります。
+このSDKを利用する前に、ニフティクラウドmobile backendのアカウントを作成する必要があります。
 
 アカウント作成後のSDK導入手順については、
-[クイックスタート](https://mbaas.nifcloud.com/doc/quickstart_ios.html)をご覧ください。
+[クイックスタート](http://mb.cloud.nifty.com/doc/quickstart_ios.html)をご覧ください。
 
 ## 動作環境
 
 - iOS 5.1 〜 iOS 9.x
  - SNS連携を利用する場合にiOS 9向けの対応を実施する必要があります
- - [SDKガイド:SNS連携](https://mbaas.nifcloud.com/doc/current/sdkguide/ios/sns.html#iOS%209対応について)をご覧ください。
+ - [SDKガイド:SNS連携](http://mb.cloud.nifty.com/doc/current/sdkguide/ios/sns.html#iOS%209対応について)をご覧ください。
 - Xcode6.x、Xcode7.x
 - armv7, armv7s, arm64アーキテクチャ
 - Facebookアカウントでの会員登録機能を利用する場合は、[Facebook iOS SDK](https://developers.facebook.com/docs/ios)が必要です。
@@ -38,9 +38,9 @@
 
 ## 参考URL集
 
-- [ニフクラ  mobile backend](http://mb.cloud.nifty.com)
-- [ドキュメント](https://mbaas.nifcloud.com/doc)
-- [ユーザーコミュニティ](https://github.com/NIFCloud-mbaas/UserCommunity)
+- [ニフティクラウド mobile backend](http://mb.cloud.nifty.com)
+- [ドキュメント](http://mb.cloud.nifty.com/doc)
+- [ユーザーコミュニティ](https://github.com/NIFTYCloud-mbaas/UserCommunity)
 
 
 
