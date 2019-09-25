@@ -15,19 +15,20 @@ class ViewController: UIViewController {
         // 保存先クラスを作成
         let obj = NCMBObject(className: "TestClass")
         // 値を設定
-        obj.setObject("Hello,NCMB!", forKey: "message")
+        obj["message"] = "Hello,NCMB!"
         // 保存を実施
-        obj.saveInBackgroundWithBlock{(error: NSError!) in
-            if (error != nil) {
-                // 保存に失敗した場合の処理
-                print("エラーが発生しました。エラーコード:\(error.code)")
-                self.alertText.text = "エラーが発生しました。エラーコード:\(error.code)"
-            }else{
+        obj.saveInBackground(callback: { result in
+            switch result {
+            case .success:
                 // 保存に成功した場合の処理
-                print("保存に成功しました。objectId:\(obj.objectId)")
-                self.alertText.text = "保存に成功しました。objectId:\(obj.objectId)"
+                 print("保存に成功しました。")
+                self.alertText.text = "保存に成功しました。"
+            case let .failure(error):
+                // 保存に失敗した場合の処理
+                print("エラーが発生しました。エラーコード:\(error)")
+                self.alertText.text = "エラーが発生しました。エラーコード:\(error)"
             }
-        }
+        })
 
         
     }
