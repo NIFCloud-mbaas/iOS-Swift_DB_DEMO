@@ -21,12 +21,16 @@ class ViewController: UIViewController {
             switch result {
             case .success:
                 // 保存に成功した場合の処理
-                 print("保存に成功しました。")
-                self.alertText.text = "保存に成功しました。"
+                print("保存に成功しました。objectId:\(String(describing: obj.objectId))")
+                DispatchQueue.main.async {
+                    self.alertText.text = "保存に成功しました。objectId:\(String(describing: obj.objectId))"
+                }
             case let .failure(error):
                 // 保存に失敗した場合の処理
                 print("エラーが発生しました。エラーコード:\(error)")
-                self.alertText.text = "エラーが発生しました。エラーコード:\(error)"
+                DispatchQueue.main.async {
+                    self.alertText.text = "エラーが発生しました。エラーコード:\(error)"
+                }
             }
         })
 
