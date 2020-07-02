@@ -49,7 +49,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上のボタンを押すとニフティクラウドmobile backendに{&quot;message&quot;:&quot;Hello,NCMB!&quot;}が保存されます" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5N-Rh-PzJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上のボタンを押すとニフクラ mobile backendに{&quot;message&quot;:&quot;Hello,NCMB!&quot;}が保存されます" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5N-Rh-PzJ">
                                 <rect key="frame" x="42.666666666666657" y="370" width="290" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="290" id="dv0-wn-TTW"/>
